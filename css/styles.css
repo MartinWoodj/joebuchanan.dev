@@ -1,0 +1,102 @@
+.bg-top {
+	background: #80DEEA;
+	height: 50vh;
+}
+
+.joe-img {
+	border-radius: 100%;
+	border: 1px solid #BDBDBD;
+}
+
+.joe-img-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: -125px;
+}
+
+.joe-h1-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.joe-h1 {
+	color: #ffffff;
+	font-size: 4em;
+	font-family: 'Work Sans', sans-serif;
+	margin-top: 3em;
+}
+
+.intro {
+	margin-top: 5%;
+}
+
+p,
+address,
+h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
+	max-width: 1100px;
+	line-height: 1.5em;
+	margin: auto;
+}
+
+.section-headers {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 1%;
+}
+
+.hr-style {
+	height: 12px;
+	background: url(/images/hr-style-aqua.png) repeat-x 0 0;
+	border: 0;
+	width: 100px;
+	margin-top: 2%;
+}
+
+.employment-head {
+	margin-bottom: 1%;
+}
+
+nav {
+	width: 100%;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 7%;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	margin: 20px 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: #333333;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.footer {
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #efefef;
+	text-align: left;
+	margin-top: 3%;
+}
